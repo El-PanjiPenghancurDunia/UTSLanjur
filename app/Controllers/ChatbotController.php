@@ -43,7 +43,7 @@ class ChatbotController extends BaseController
         }
 
         // 3. Buat "Prompt" yang akan dikirim ke AI
-        $prompt = "Anda adalah asisten virtual dari sebuah toko laptop. Tugas Anda adalah menjawab pertanyaan pelanggan dengan ramah dan informatif. Jawab pertanyaan hanya berdasarkan konteks data produk yang saya berikan. Jika pertanyaan di luar konteks produk, jawab dengan sopan bahwa Anda hanya bisa membantu seputar produk yang dijual.\n\n"
+        $prompt = "Anda adalah asisten virtual dari sebuah warung Sayuran. Tugas Anda adalah menjawab pertanyaan pelanggan dengan ramah dan informatif. Jawab pertanyaan hanya berdasarkan konteks data produk yang saya berikan. Jika pertanyaan di luar konteks produk, jawab dengan sopan bahwa Anda hanya bisa membantu seputar produk yang dijual.\n\n"
                 . "Konteks Data Produk:\n" . $productContext . "\n"
                 . "Pertanyaan Pelanggan: " . $userQuestion;
 
